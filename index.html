@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+  
+<body>
+    <div id="logo" class="logo">
+        <img src="https://img.icons8.com/color/48/000000/funtime-freddy.png"/>
+        <img src="https://img.icons8.com/color/96/000000/bad-piggies.png"/>
+        <img src="https://img.icons8.com/color/100/000000/day-of-the-tentacle.png"/>
+        <img src="https://img.icons8.com/ios-filled/48/000000/day-of-the-tentacle.png"/>
+        <img src="https://img.icons8.com/color/96/000000/ds3-tool.png"/>
+        <img src="https://img.icons8.com/color/48/000000/cuphead.png"/>
+        <img src="https://img.icons8.com/ios/100/000000/rubiks-cube.png"/>
+        <img src="https://img.icons8.com/color/96/000000/action-pokemon.png"/>
+        <img src="https://img.icons8.com/color/100/000000/charmander.png"/>
+        <img src="https://img.icons8.com/color/96/000000/jigglypuff.png"/>
+        <img src="https://img.icons8.com/color/48/000000/pikachu-pokemon.png"/>
+        <img src="https://img.icons8.com/color/100/000000/meowth.png"/>
+        <img src="https://img.icons8.com/color/100/000000/smartphone.png"/>
+        <img src="https://img.icons8.com/color/96/000000/pixel-star.png"/>
+        <img src="https://img.icons8.com/color/96/000000/joystick.png"/>
+    </div>
+    <section id = "boxskew">
+    <div id = "box">
+        <h2>IT'S QUIZ TIME</h2>
+    </div>
+    </section>
+    <div>
+        <center><button class="start-button" id="start-button" onclick="myFunction()"><img src="https://img.icons8.com/color/48/000000/play-button-circled--v2.png"/></button></center>
+        <p id="OK"></p>
+    </div>
+    <div id="boxed" class="hide">
+        <div id="question-container" style="display: none">
+            <div id="question"></div>
+            <div id="qImg"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+            </div>
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+    <footer id="footer" style="display: none">
+        <img src="https://img.icons8.com/ios-filled/50/000000/bowling.png"/>
+        <img src="https://img.icons8.com/ios/50/000000/beach-ball.png"/>
+        <img src="https://img.icons8.com/ios-filled/50/000000/sonic-the-hedgehog-1.png"/>
+        <img src="https://img.icons8.com/ios/50/000000/javelin-throw.png"/>
+        <img src="https://img.icons8.com/dotty/50/000000/pole-vault.png"/>
+        <img src="https://img.icons8.com/ios/50/000000/8-of-hearts.png"/>
+        <img src="https://img.icons8.com/ios/50/000000/shot-put.png"/>
+        <img src="https://img.icons8.com/ios-glyphs/30/000000/european-dragon.png"/>
+        <img src="https://img.icons8.com/ios-glyphs/45/000000/short-track-speed-skating.png"/>
+        <img src="https://img.icons8.com/ios/50/000000/king-of-spades.png"/>
+        <img src="https://img.icons8.com/ios-glyphs/45/000000/field-hockey.png"/>
+        <img src="https://img.icons8.com/ios/48/000000/rubiks-cube.png"/>
+        <img src="https://img.icons8.com/ios/40/000000/sandbox2.png"/>
+        <img src="https://img.icons8.com/ios/48/000000/desura.png"/>
+        <img src="https://img.icons8.com/ios-filled/50/000000/nintendo-without-card.png"/>
+        <img src="https://img.icons8.com/ios/50/000000/mugman.png"/>
+        <img src="https://img.icons8.com/windows/45/000000/origin.png"/>
+
+    </footer>
+<script src="./app.js"></script>
+</body>  
+</html>
